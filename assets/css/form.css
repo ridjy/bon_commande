@@ -1,0 +1,182 @@
+body{
+	background: rgb(38,38,38); /*#cccccc*/
+	font-family: verdana ;
+}
+
+#page{
+	background-color: #fff;
+	width: 900px;
+	margin: auto;
+	border-radius: 8px ; 
+	/*box-shadow: 5px 5px 5px #444444;*/
+
+}
+
+img{ 
+	float: right;
+	padding-top: 15px;
+	padding-right: 10px;
+
+}
+
+fieldset{
+	width: 600px;
+	font-size: 11pt;
+	margin: 0px 0px 25px 50px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+
+.admin{ 
+	margin-left: 670px;
+	margin-bottom: 30px;
+	padding : 5px 5px 5px 5px;
+}
+
+.entete h3{
+	padding: 100px 0px 15px 50px; 
+
+}
+
+/*#fournisseur{
+border-style: none none dashed;
+border-color: -moz-use-text-color -moz-use-text-color #989895;
+background: none repeat scroll 0% 0% transparent;
+}*/
+
+.fournisseur{
+	margin : 0px 0px 25px 35px;
+	
+}
+
+.commande{
+	/*width : 500px;*/
+	margin : 0px 0px 25px 55px;
+}
+
+.tva{
+	margin : -30px 0px 20px 650px ;
+}
+
+.livraison{
+	/*margin : 0px 0px 20px 650px ;*/
+	margin : 0px 0px 20px 55px;
+}
+
+.l1 {
+	/*margin : 0px 0px 20px 650px ;*/
+	width:114px;
+}
+
+
+.mg{
+	width: 720px;
+	margin : 0px 0px 30px 55px;
+}
+
+.mg td{
+	height: 20px;
+	padding: 5px 0px 5px 0px ;
+}
+
+.xm{
+	width: 720px;
+	margin : 0px 0px 30px 55px;
+}
+
+.xm td{
+	height: 20px;
+	padding: 5px 0px 5px 0px ;
+}
+
+.remise, #pourcent{
+	margin : 0px 0px 0px 55px;
+}
+
+.devise{
+	margin : 0px 0px 20px 55px;
+}
+
+.a{
+	color: -webkit-link;
+	text-decoration: underline;
+	cursor: auto;
+}
+
+.bouton{
+	margin: 0 0 0 475px;
+}
+
+#point{
+border-width: medium medium 1px;
+border-radius:4px;
+height : 20px;
+border-style: none none dashed;
+border-color: -moz-use-text-color -moz-use-text-color #989895;
+background: none repeat scroll 0% 0% transparent;
+}
+
+#selection {
+padding:3px;
+border:1px solid black;
+border-radius:5px;
+width: 150px;
+box-shadow:1px 1px 2px #fff inset;
+background-color: rgba(100,149,237,0.3) ;/*#FFF3F3*/
+}
+
+input{
+	font-family: verdana;
+	font-weight: bold;
+	
+}
+
+input:focus {
+ outline:none;
+ }
+
+input[type=submit], input[type=reset], .btn {
+	width: auto;
+	padding: 8px 0;
+	text-align: center;
+	display: inline-block;
+	margin: 20px 15px 35px 0px;
+	font-size: 1.6em;
+	color: #555;
+	font-weight: bold;
+	border-radius: 7px;
+	font-size: 0.85em;
+	width: 110px;
+	height : 40px;
+	background: linear-gradient( #FFD217, #FFB515);
+	text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+}
+
+.choix{
+	margin : auto;
+}
+
+.choix td{
+	border: 0px;	
+}
+
+.tete{
+	background: #6495ed;
+}
+
+#charge{
+	display: block;
+}
+
+#but:hover{
+	background: linear-gradient( #C8C8C8, #A0A0A0);
+}
+
+#reset:hover{
+	background: linear-gradient( #C8C8C8, #A0A0A0);
+}
+
+.annuler{
+	margin : 30px 0px 20px 90px;
+}
